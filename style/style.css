@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a { text-decoration: none; }
+
+li { list-style: none; }
+
+img, button { display: block; }
+
+a, span { display: inline-block; }
+
+html {
+    font-family: "Inter", sans-serif;
+    font-size: var(--fs-base);
+    line-height: 1.8;
+  }
+  
+  :focus { outline-offset: 4px; }
+
+  .h1,
+.h2,
+.h3,
+.h4 {
+  display: block;
+  color: hsl(218, 23%, 23%);;
+}
+
+button {
+    font: inherit;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }

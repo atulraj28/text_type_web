@@ -1,0 +1,19 @@
+.devided{
+    width: 100%;
+    margin: auto;
+}
+.devided .half{
+    display: inline-block;
+    width: 49%;
+    margin: auto;
+    border-style: outset;
+    padding: 10px;
+  margin: auto;
+    text-align: center;
+}
+.full{
+    width: 88%;
+    margin: auto;
+    text-align: center;
+    border-style: groove;
+}
